@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email Us</h4>
-                  <p className="text-gray-600">abubakkarinam01@gmail.com</p>
+                  <p className="text-gray-600">theecotechh@gmail.com</p>
                   <p className="text-sm text-gray-500">We respond within 24 hours</p>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Call Us</h4>
-                  <p className="text-gray-600">+92 3424100307</p>
+                  <p className="text-gray-600">+92 3290079175</p>
                   <p className="text-sm text-gray-500">Mon-Fri 9AM-6PM EST</p>
                 </div>
               </div>
@@ -96,7 +96,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">WhatsApp</h4>
-                  <p className="text-gray-600">+92 3424100307</p>
+                  <p className="text-gray-600">+92 3290079175</p>
                   <p className="text-sm text-gray-500">Quick response guaranteed</p>
                 </div>
               </div>
