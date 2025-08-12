@@ -25,7 +25,7 @@ const AIChatbotDevelopment: React.FC = () => {
         <div className="absolute inset-0 flex items-center justify-center px-6 text-center">
           <motion.div variants={fadeUp}>
             <h1 className="text-4xl sm:text-6xl font-bold text-indigo-400">
-              AI Chatbot Development
+              AI Agent Development
             </h1>
             <p className="mt-4 text-lg sm:text-xl max-w-xl mx-auto">
               Conversational AI to automate support & drive conversions — by <span className="font-bold">EcoTech</span>
