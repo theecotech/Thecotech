@@ -120,7 +120,7 @@ const Footer: React.FC<FooterProps> = ({ setCvOpen }) => {
                   to="/ai-chatbot-development"
                   className="hover:text-white transition-colors duration-200"
                 >
-                  AI Chatbot Development
+                  AI Agent Development
                 </Link>
               </li>
               <li>
