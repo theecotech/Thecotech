@@ -99,6 +99,14 @@ const Footer: React.FC<FooterProps> = ({ setCvOpen }) => {
                   Website Development
                 </Link>
               </li>
+               <li>
+                <Link
+                  to="/ai-chatbot-development"
+                  className="hover:text-white transition-colors duration-200"
+                >
+                  AI Agent Development
+                </Link>
+              </li>
               <li>
                 <Link
                   to="/shopify-development"
@@ -115,14 +123,7 @@ const Footer: React.FC<FooterProps> = ({ setCvOpen }) => {
                   WordPress Development
                 </Link>
               </li>
-              <li>
-                <Link
-                  to="/ai-chatbot-development"
-                  className="hover:text-white transition-colors duration-200"
-                >
-                  AI Agent Development
-                </Link>
-              </li>
+             
               <li>
                 <Link
                   to="/social-media-marketing"

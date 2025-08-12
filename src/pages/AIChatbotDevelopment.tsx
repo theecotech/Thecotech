@@ -28,7 +28,8 @@ const AIChatbotDevelopment: React.FC = () => {
               AI Agent Development
             </h1>
             <p className="mt-4 text-lg sm:text-xl max-w-xl mx-auto">
-              Conversational AI to automate support & drive conversions — by <span className="font-bold">EcoTech</span>
+              Conversational AI to automate support & drive conversions — by{" "}
+              <span className="font-bold">EcoTech</span>
             </p>
           </motion.div>
         </div>
@@ -128,6 +129,38 @@ const AIChatbotDevelopment: React.FC = () => {
                 <h3 className="text-lg font-bold text-indigo-600">{p.title}</h3>
                 <p className="text-gray-600 mt-2">{p.desc}</p>
               </div>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
+      {/* Business Improvement */}
+      <section className="py-12 px-6 bg-gray-50">
+        <motion.h2
+          className="text-2xl font-semibold text-gray-800 text-center mb-6"
+          initial="hidden"
+          whileInView="visible"
+          variants={fadeUp}
+        >
+          How AI Chatbots Improve Your Business
+        </motion.h2>
+
+        <div className="max-w-5xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-6">
+          {[
+            { title: "24/7 Availability", desc: "Your customers get instant answers anytime — no waiting, no lost leads." },
+            { title: "Cost Reduction", desc: "Automate repetitive tasks and reduce customer service costs by up to 40%." },
+            { title: "Higher Conversions", desc: "Engage prospects in real time, answer objections, and guide them to purchase." },
+            { title: "Data Insights", desc: "Gain valuable analytics from conversations to improve services and marketing." },
+          ].map((item, idx) => (
+            <motion.div
+              key={idx}
+              className="p-6 border rounded-lg hover:shadow-lg transition duration-300 bg-white"
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ delay: idx * 0.15 }}
+            >
+              <h3 className="font-bold text-indigo-600 mb-2">{item.title}</h3>
+              <p className="text-gray-600">{item.desc}</p>
             </motion.div>
           ))}
         </div>
