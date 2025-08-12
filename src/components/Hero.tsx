@@ -21,10 +21,10 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8">
+       <div className="mb-8">
           <div className="inline-flex items-center px-4 py-2 rounded-full bg-blue-100 text-blue-800 text-sm font-medium mb-8">
-            <Zap size={16} className="mr-2" />
-            Full-Service Digital Agency
+           
+      
           </div>
         </div>
 
@@ -34,13 +34,13 @@ const Hero = () => {
           <span className="text-blue-600">Scale Faster.</span>
           <br />
           <span className="text-2xl md:text-4xl font-normal text-gray-700">
-            The ThreeTech Way.
+            The TheEcoTech Way.
           </span>
         </h1>
 
         <p className="text-xl md:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
           We help startups, e-commerce businesses, and local brands scale online 
-          through custom development, AI automation, and strategic digital marketing.
+          throug h custom development, AI automation, and strategic digital marketing.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

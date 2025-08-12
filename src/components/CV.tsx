@@ -19,15 +19,10 @@ const CV: React.FC<CVProps> = ({ isOpen, onClose }) => {
       <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto">
         {/* Header */}
         <div className="sticky top-0 bg-white border-b border-gray-200 p-6 flex justify-between items-center rounded-t-2xl">
-          <h2 className="text-2xl font-bold text-gray-900">ThreeTech Agency Portfolio</h2>
+          <h2 className="text-2xl font-bold text-gray-900">TheEcoTech Agency Portfolio</h2>
           <div className="flex items-center space-x-4">
-            <button
-              onClick={handleDownload}
-              className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
-            >
-              <Download size={16} />
-              <span>Download PDF</span>
-            </button>
+
+              
             <button
               onClick={onClose}
               className="text-gray-500 hover:text-gray-700 transition-colors duration-200"
@@ -44,17 +39,17 @@ const CV: React.FC<CVProps> = ({ isOpen, onClose }) => {
             <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-gray-900 rounded-full mx-auto mb-4 flex items-center justify-center">
               <span className="text-white text-2xl font-bold">TT</span>
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">ThreeTech Digital Agency</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-2">TheEcoTech Digital Agency</h1>
             <p className="text-xl text-blue-600 mb-4">Full-Service Digital Solutions Provider</p>
             
             <div className="flex flex-wrap justify-center gap-6 text-gray-600">
               <div className="flex items-center space-x-2">
                 <Mail size={16} />
-                <span>hello@threetech.agency</span>
+                <span>theecotechh@gmail.com</span>
               </div>
               <div className="flex items-center space-x-2">
                 <Phone size={16} />
-                <span>+1 (555) 123-4567</span>
+                <span>+92 3290079175</span>
               </div>
               <div className="flex items-center space-x-2">
                 <MapPin size={16} />
@@ -67,10 +62,10 @@ const CV: React.FC<CVProps> = ({ isOpen, onClose }) => {
           <div className="mb-8">
             <h2 className="text-2xl font-bold text-gray-900 mb-4 flex items-center">
               <Users className="mr-3 text-blue-600" size={24} />
-              About ThreeTech
+              About TheEcoTech
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              ThreeTech is a cutting-edge digital agency specializing in custom web development, 
+             TheEcoTech is a cutting-edge digital agency specializing in custom web development, 
               AI automation, and strategic digital marketing. We help startups, e-commerce businesses, 
               and local brands scale online through innovative technology solutions and data-driven strategies. 
               Our mission is to democratize digital success by making advanced technology accessible to businesses of all sizes.
@@ -236,7 +231,7 @@ const CV: React.FC<CVProps> = ({ isOpen, onClose }) => {
           <div className="bg-gradient-to-r from-blue-600 to-gray-900 rounded-2xl p-8 text-center text-white">
             <h3 className="text-2xl font-bold mb-4">Ready to Work Together?</h3>
             <p className="text-blue-100 mb-6">
-              Let's discuss how ThreeTech can help transform your business with innovative digital solutions.
+              Let's discuss how TheEcoTech can help transform your business with innovative digital solutions.
             </p>
             <button
               onClick={() => {

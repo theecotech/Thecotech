@@ -50,7 +50,7 @@ const Contact = () => {
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Ready to transform your business? Let's discuss your project and explore 
-            how ThreeTech can help you achieve your digital goals.
+            how TheEcoTech can help you achieve your digital goals.
           </p>
         </div>
 
@@ -74,7 +74,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Email Us</h4>
-                  <p className="text-gray-600">theecotechh@gmail.com</p>
+                  <p className="text-gray-600">info@theecotech.com</p>
                   <p className="text-sm text-gray-500">We respond within 24 hours</p>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const Contact = () => {
             </div>
 
             <div className="bg-blue-600 rounded-2xl p-6 text-white">
-              <h4 className="text-xl font-semibold mb-3">Why Choose ThreeTech?</h4>
+              <h4 className="text-xl font-semibold mb-3">Why Choose TheEcoTech?</h4>
               <ul className="space-y-2 text-blue-100">
                 <li>• Free initial consultation and project scoping</li>
                 <li>• Dedicated project manager for your account</li>

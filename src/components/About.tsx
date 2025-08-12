@@ -31,11 +31,11 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-              About <span className="text-blue-600">ThreeTech</span>
+              About <span className="text-blue-600">TheEcoTech</span>
             </h2>
             
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-              ThreeTech is a full-service digital agency dedicated to helping businesses 
+              TheEcoTech is a full-service digital agency dedicated to helping businesses 
               scale online through innovative technology solutions and strategic digital marketing.
             </p>
             
@@ -86,7 +86,7 @@ const About = () => {
             Ready to Transform Your Business?
           </h3>
           <p className="text-xl text-blue-100 mb-8 max-w-2xl mx-auto">
-            Join the businesses that have already scaled their online presence with ThreeTech's 
+            Join the businesses that have already scaled their online presence with TheEcoTech's 
             innovative solutions and strategic approach.
           </p>
           <button
