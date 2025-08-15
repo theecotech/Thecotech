@@ -12,21 +12,21 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-blue-950 via-blue-900 to-blue-950"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-blue-100"
     >
       {/* Futuristic glowing blue blobs */}
       <motion.div
-        className="absolute top-10 left-10 w-96 h-96 rounded-full mix-blend-screen filter blur-3xl opacity-70 bg-gradient-to-tr from-blue-400 via-blue-500 to-blue-600"
+        className="absolute top-10 left-10 w-96 h-96 rounded-full mix-blend-screen filter blur-3xl opacity-50 bg-blue-400"
         animate={{ y: [0, 50, 0], x: [0, 40, 0], scale: [1, 1.25, 1] }}
         transition={{ duration: 14, repeat: Infinity, ease: 'easeInOut' }}
       />
       <motion.div
-        className="absolute top-1/3 right-20 w-80 h-80 rounded-full mix-blend-screen filter blur-3xl opacity-60 bg-gradient-to-br from-blue-300 via-blue-500 to-blue-600"
+        className="absolute top-1/3 right-20 w-80 h-80 rounded-full mix-blend-screen filter blur-3xl opacity-40 bg-blue-300"
         animate={{ y: [0, -30, 0], x: [0, -35, 0], scale: [1, 1.15, 1] }}
         transition={{ duration: 12, repeat: Infinity, ease: 'easeInOut' }}
       />
       <motion.div
-        className="absolute bottom-0 left-20 w-72 h-72 rounded-full mix-blend-screen filter blur-3xl opacity-70 bg-gradient-to-tr from-blue-500 via-blue-400 to-blue-600"
+        className="absolute bottom-0 left-20 w-72 h-72 rounded-full mix-blend-screen filter blur-3xl opacity-50 bg-blue-500"
         animate={{ y: [0, 40, 0], x: [0, 20, 0], scale: [1, 1.2, 1] }}
         transition={{ duration: 16, repeat: Infinity, ease: 'easeInOut' }}
       />
@@ -35,7 +35,7 @@ const Hero = () => {
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           {/* Tagline */}
           <motion.div
-            className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium mb-8 text-blue-300 bg-black/30 backdrop-blur-sm drop-shadow-[0_0_15px_blue]"
+            className="inline-flex items-center px-4 py-2 rounded-full text-sm font-medium mb-8 text-blue-700 bg-white/30 backdrop-blur-sm drop-shadow-lg"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
@@ -43,10 +43,10 @@ const Hero = () => {
             🚀 Welcome to TheEcoTech
           </motion.div>
 
-          {/* Headings with rotation */}
+          {/* Headings */}
           <MouseParallaxChild factorX={0.05} factorY={0.05}>
             <motion.h1
-              className="text-5xl md:text-7xl font-extrabold mb-4 tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 drop-shadow-[0_0_25px_blue]"
+              className="text-5xl md:text-7xl font-extrabold mb-4 tracking-wide text-blue-700"
               initial={{ opacity: 0, rotate: 0 }}
               animate={{
                 opacity: 1,
@@ -62,7 +62,7 @@ const Hero = () => {
 
           <MouseParallaxChild factorX={0.06} factorY={0.06}>
             <motion.h2
-              className="text-4xl md:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 via-blue-400 to-blue-500 drop-shadow-[0_0_20px_blue]"
+              className="text-4xl md:text-6xl font-bold mb-6 text-blue-600"
               initial={{ opacity: 0, rotate: 0 }}
               animate={{
                 opacity: 1,
@@ -77,7 +77,7 @@ const Hero = () => {
           </MouseParallaxChild>
 
           <motion.p
-            className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-200 drop-shadow-[0_0_5px_blue]"
+            className="text-xl md:text-2xl mb-12 max-w-3xl mx-auto leading-relaxed text-blue-600"
             initial={{ opacity: 0, y: 20, scale: 0.9 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
             transition={{ delay: 2, duration: 1.2, ease: 'easeOut' }}
@@ -95,7 +95,7 @@ const Hero = () => {
           >
             <motion.button
               onClick={scrollToContact}
-              className="group px-8 py-4 rounded-lg font-semibold text-lg bg-blue-500 hover:bg-blue-600 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+              className="group px-8 py-4 rounded-lg font-semibold text-lg bg-blue-700 hover:bg-blue-800 text-white shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
               whileHover={{ scale: 1.05, rotate: 5 }}
             >
               Get a Free Quote
@@ -104,7 +104,7 @@ const Hero = () => {
 
             <motion.button
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 rounded-lg font-semibold text-lg border-2 border-blue-300 text-blue-200 hover:bg-blue-400 hover:text-white transition-all duration-300"
+              className="px-8 py-4 rounded-lg font-semibold text-lg border-2 border-blue-600 text-blue-700 hover:bg-blue-400 hover:text-white transition-all duration-300"
               whileHover={{ scale: 1.05, rotate: -5 }}
             >
               Our Services
@@ -125,10 +125,10 @@ const Hero = () => {
                 whileHover={{ scale: 1.1, rotate: [0, 5, -5, 0] }}
                 transition={{ type: 'spring', stiffness: 200 }}
               >
-                <div className="text-3xl md:text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 drop-shadow-[0_0_15px_blue]">
+                <div className="text-3xl md:text-4xl font-bold mb-2 text-blue-700">
                   {stat.number}
                 </div>
-                <div className="text-blue-200">{stat.label}</div>
+                <div className="text-blue-600">{stat.label}</div>
               </motion.div>
             ))}
           </motion.div>

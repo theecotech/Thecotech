@@ -81,7 +81,7 @@ const Contact = () => {
 
               <div className="flex items-start space-x-4">
                 <div className="bg-blue-100 p-3 rounded-lg">
-                  <Phone className="text-blue-600" size={24} />
+                  <Phone className="text-blue-600" size={25} />
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900">Call Us</h4>

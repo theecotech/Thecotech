@@ -42,7 +42,7 @@ const CookiePolicy: React.FC = () => {
         </p>
       </section>
 
-      <section className="mb-8">
+      <section className="mb-9">
         <h2 className="text-2xl font-semibold mb-3 text-blue-600">5. Changes to This Policy</h2>
         <p className="text-gray-700 leading-relaxed">
           We may update this Cookie Policy periodically. Changes will be posted here with the latest revision date.
