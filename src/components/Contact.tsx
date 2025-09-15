@@ -239,11 +239,12 @@ const Contact = () => {
     setLoading(true);
 
     const templateParams = {
-      from_name: formData.name,
-      from_email: formData.email,
-      from_phone: formData.phone,
+      name: formData.name,
+      email: formData.email,
+      phone: formData.phone,
       message: formData.message
     };
+    
 
     emailjs.send(
       'service_eesuyf2',       // Your Service ID
