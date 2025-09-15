@@ -125,18 +125,6 @@ const Services: React.FC = () => {
   const services = [
     {
       icon: <Code size={40} />,
-      title: 'Custom Website Development',
-      description: 'Fully custom-coded websites built from scratch with modern technologies, optimized for performance and user experience.',
-      features: ['React & Next.js', 'Mobile Responsive', 'SEO Optimized', 'Fast Loading']
-    },
-    {
-      icon: <ShoppingCart size={40} />,
-      title: 'Shopify Development',
-      description: 'Complete e-commerce solutions on Shopify with custom themes, integrations, and optimization for maximum conversions.',
-      features: ['Custom Themes', 'App Integration', 'Payment Setup', 'Analytics Tracking']
-    },
-    {
-      icon: <Code size={40} />,
       title: 'WordPress Development',
       description: 'Professional WordPress websites with custom themes, plugins, and content management systems tailored to your needs.',
       features: ['Custom Themes', 'Plugin Development', 'CMS Setup', 'Security Optimization']
@@ -160,18 +148,11 @@ const Services: React.FC = () => {
       features: ['Content Creation', 'Daily Management', 'Community Building', 'Growth Strategy']
     },
 
-    // NEW entries:
     {
       icon: <Image size={40} />,
       title: 'Graphic Designing',
       description: 'Branding, marketing creatives, and visual assets designed to make your business stand out.',
       features: ['Logo & Branding', 'Marketing Collateral', 'Social Creatives', 'Print-ready Files']
-    },
-    {
-      icon: <Video size={40} />,
-      title: 'Video Editing',
-      description: 'Professional video editing for ads, social posts, explainers and product demos that convert audiences.',
-      features: ['Short-form Ads', 'YouTube & Explainers', 'Color Grading', 'Motion Graphics']
     },
     {
       icon: <Search size={40} />,
